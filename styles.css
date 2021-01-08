@@ -57,57 +57,7 @@ input:checked + .slider:before {
 .slider.round:before {
   border-radius: 50%;
 }
-
-
-
-.onoffswitch {
-  position: relative; width: 99px;
-  -webkit-user-select:none; -moz-user-select:none; -ms-user-select: none;
-}
-.onoffswitch-checkbox {
-  position: absolute;
-  opacity: 0;
-  pointer-events: none;
-}
-.onoffswitch-label {
-  display: block; overflow: hidden; cursor: pointer;
-  border: 2px solid #F0E2E2; border-radius: 50px;
-}
-.onoffswitch-inner {
-  display: block; width: 200%; margin-left: -100%;
-  transition: margin 0.3s ease-in 0s;
-}
-.onoffswitch-inner:before, .onoffswitch-inner:after {
-  display: block; float: left; width: 50%; height: 29px; padding: 0; line-height: 29px;
-  font-size: 14px; color: white; font-family: Trebuchet, Arial, sans-serif; font-weight: bold;
-  box-sizing: border-box;
-}
-.onoffswitch-inner:before {
-  content: "Español";
-  padding-left: 10px;
-  background-color: #333652; color: #FAD02C;
-}
-.onoffswitch-inner:after {
-  content: "Ingles";
-  padding-right: 10px;
-  background-color: #FAD02C; color: #333652;
-  text-align: right;
-}
-.onoffswitch-switch {
-  display: block; width: 12px; margin: 8.5px;
-  background: #0e0d0d;
-  position: absolute; top: 0; bottom: 0;
-  right: 66px;
-  border: 2px solid #F0E2E2; border-radius: 50px;
-  transition: all 0.3s ease-in 0s; 
-}
-.onoffswitch-checkbox:checked + .onoffswitch-label .onoffswitch-inner {
-  margin-left: 0;
-}
-.onoffswitch-checkbox:checked + .onoffswitch-label .onoffswitch-switch {
-  right: 0px; 
-}
-
+  
 .navbar
 {
   background-color: #333652;
@@ -126,7 +76,7 @@ input:checked + .slider:before {
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: #ccc;
+  background-color: #333652;
   -webkit-transition: .4s;
   transition: .4s;
   padding: 8px;
@@ -144,7 +94,7 @@ input:checked + .slider:before {
   transition: .4s;
 }
 input:checked + .slide {
-  background-color: #8CE196;
+  background-color: #FAD02C;
   padding-left: 40px;
 }
 input:focus + .slide {
@@ -165,10 +115,27 @@ input:checked + .slide:before {
 #section1
 {
   height: 500px;
+<<<<<<< HEAD
   background-color: black;
+=======
+  background-color: magenta;
+>>>>>>> 41e4a89af901af698a089d95e20413aa55ba4ece
 }
 #section2
 {
   height: 500px;
+<<<<<<< HEAD
   background-color: blue;
+=======
+  background-color: blue
+}
+
+#section3
+{
+  height: 500px;
+  background-color: cyan
+}
+body {
+  position: relative;
+>>>>>>> 41e4a89af901af698a089d95e20413aa55ba4ece
 }
