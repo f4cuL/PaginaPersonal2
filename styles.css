@@ -162,3 +162,13 @@ input:checked + .slide:before {
 .slide.round:before {
   border-radius: 50%;
 }
+#section1
+{
+  height: 500px;
+  background-color: black;
+}
+#section2
+{
+  height: 500px;
+  background-color: blue;
+}
