@@ -57,14 +57,14 @@ btn.addEventListener( 'change', function() {
 
   document.querySelector('.containerCV').classList.replace("animate__fadeIn","animate__fadeOut");
 
-  setTimeout(function(){app.info='Information'},900);
+  setTimeout(function(){app.info=' Information'},900);
   setTimeout(function(){app.infoTexto='texto en ingles'},900);
-  setTimeout(function(){app.estudios='Education'},900);
+  setTimeout(function(){app.estudios=' Education'},900);
   setTimeout(function(){app.nereInfo='Primary and Secondary school.'},900);
   setTimeout(function(){app.unla='Universidad Nacional de Lanús (2019-present)'},900);
   setTimeout(function(){app.unlaInfo='Bachelor of Information Systems '},900);
-  setTimeout(function(){app.cursos='Courses'},900);
-  setTimeout(function(){app.estudios='Education'},900);
+  setTimeout(function(){app.cursos=' Courses'},900);
+  setTimeout(function(){app.estudios=' Education'},900);
   setTimeout(function(){app.google='Introduction to Web Development'},900);
   setTimeout(function(){app.googleInfo='History of the web - How the web works - How to write a web page - How to publish a website - How to trite well structured web page'},900);
   setTimeout(function(){app.date='November 16th, 1999'},900);
@@ -103,20 +103,20 @@ btn.addEventListener( 'change', function() {
 
   document.querySelector('.containerCV').classList.replace("animate__fadeIn","animate__fadeOut");
 
-  setTimeout(function(){app.info='Información'},900);
+  setTimeout(function(){app.info=' Información'},900);
   setTimeout(function(){app.infoTexto='Actualmente no poseo experiencia laboral. Soy una persona muy calma y tranquila, ideal para la atención al cliente o la resolución de problemas que se plantean al momento. Poseo un buen manejo de responsabilidad a la hora de ejercer, tengo conocimientos avanzados sobre tecnología en general y un excelente uso de computadoras y algún que otro programa, ya sea Word, Excel, entre otras. Puedo desempeñarme en la programación, ya sea web o apps, con diferentes lenguajes y frameworks.'},900);
-  setTimeout(function(){app.estudios='Estudios'},900);
+  setTimeout(function(){app.estudios=' Estudios'},900);
   setTimeout(function(){app.nereInfo='Secundaria y Primaria con orientación a ciéncias sociales.'},900);
   setTimeout(function(){app.unla='Universidad Nacional de Lanús (2019-actualidad)'},900);
   setTimeout(function(){app.unlaInfo='Licenciatura en Sistemas'},900);
-  setTimeout(function(){app.cursos='Cursos'},900);
+  setTimeout(function(){app.cursos=' Cursos'},900);
   setTimeout(function(){app.google='Introducción al desarrollo web I'},900);
   setTimeout(function(){app.googleInfo='Historia de la web - Cómo funciona la web - Cómo se escribe una página web - Cómo se publica un sitio web - Cómo se escribe una página web bien estructurada'},900);
   setTimeout(function(){app.date='16 de noviembre de 1999'},900);
   setTimeout(function(){app.estado='Soltero'},900);
   setTimeout(function(){app.nacio='Argentino'},900);
-  setTimeout(function(){app.habil='Habilidades'},900);
-  setTimeout(function(){app.contact='Contacto'},900);
+  setTimeout(function(){app.habil=' Habilidades'},900);
+  setTimeout(function(){app.contact=' Contacto'},900);
   setTimeout(function(){app.datos='Datos personales'},900);
 
   
