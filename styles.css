@@ -152,8 +152,11 @@ box-shadow: -9px 7px 33px 0px rgba(41, 41, 41, 0.75);
   color: rgb(0, 0, 0) ;
   
 }
-a 
-{ 
-  color: inherit;
-}
 
+.s3
+{
+  background-color: #E9EAEC ;
+  -webkit-box-shadow: -9px 7px 33px 0px rgba(71, 70, 70, 0.75);
+-moz-box-shadow: -9px 7px 33px 0px rgba(85, 84, 84, 0.75);
+box-shadow: -9px 7px 33px 0px rgba(41, 41, 41, 0.75);
+}
