@@ -114,28 +114,46 @@ input:checked + .slide:before {
 }
 #section1
 {
-  height: 500px;
-<<<<<<< HEAD
-  background-color: black;
-=======
-  background-color: magenta;
->>>>>>> 41e4a89af901af698a089d95e20413aa55ba4ece
+  background-color: #E9EAEC;
 }
 #section2
 {
-  height: 500px;
-<<<<<<< HEAD
-  background-color: blue;
-=======
-  background-color: blue
+  background-color: #E9EAEC; 
+  -webkit-box-shadow: -9px 7px 33px 0px rgba(71, 70, 70, 0.75);
+  -moz-box-shadow: -9px 7px 33px 0px rgba(85, 84, 84, 0.75);
+  box-shadow: -9px 7px 33px 0px rgba(41, 41, 41, 0.75);
 }
 
-#section3
+.textowea
 {
-  height: 500px;
-  background-color: cyan
+  color: rgb(0, 0, 0);
+  font-size: 20px;
 }
-body {
-  position: relative;
->>>>>>> 41e4a89af901af698a089d95e20413aa55ba4ece
+
+.foto_text
+{
+  -webkit-box-shadow: -9px 7px 33px 0px rgba(71, 70, 70, 0.75);
+-moz-box-shadow: -9px 7px 33px 0px rgba(85, 84, 84, 0.75);
+box-shadow: -9px 7px 33px 0px rgba(41, 41, 41, 0.75);
 }
+
+#foto
+{
+  border-radius: 200px;
+}
+
+#tarjeta1
+{
+  background-color: rgba(68, 70, 70, 0.062);
+}
+.containerCV
+{
+  font-size: small;
+  color: rgb(0, 0, 0) ;
+  
+}
+a 
+{ 
+  color: inherit;
+}
+

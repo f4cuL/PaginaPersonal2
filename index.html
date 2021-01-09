@@ -14,53 +14,131 @@
   <title>Document</title>
 </head>
 
-<body data-spy="scroll" data-target="#navbar" data-offset='70'>
-
+<body data-bs-spy="scroll" data-bs-target="#navbar" style="background-color:#bbd3e7"data-offset="10">
   <nav class="navbar navbar-expand-lg navbar-dark fixed-top pb-1" id="navbar">
     <div class="container-fluid">
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
         aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-      <div class="collapse navbar-collapse copy"></div>
       <div class="collapse navbar-collapse" id="navbarText">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-          <li class="nav-item">
-            <a class="nav-link" href="#section1"><p class="m-0 p-0 inicio">Inicio</p></a>
+          <li class="nav-item flex-fill justify-content-center">
+            <a class="nav-link  hvr-float" aria-current="page" href="#s1"><p class="m-0 p-0 inicio">Inicio</p></a>
           </li>
           <li class="nav-item">
-            <a class="nav-link"  href="#section2" id="contacto">Contacto</a>
+            <a class="nav-link hvr-float" aria-current="page" href="#s2" id="cv">Curriculum</a>
           </li>
-        </ul> 
-        <label class="switchBtn pb-4">
-          <input type="checkbox" class="switchBtn-checkbox">
-          <div class="slide round">EN <img src="flags_PNG14592.png" alt="" width="30px" height="20px" class="pb-1"></div>
-        </label>      
+          <li class="nav-item">
+            <a class="nav-link hvr-float" aria-current="page" href="#section3" id="contacto">Contacto</a>
+          </li>
+        </ul>
+        <div class="onoffswitch">
+          <label class="switchBtn pb-4">
+            <input type="checkbox" class="switchBtn-checkbox">
+            <div class="slide round">EN <img src="flags_PNG14592.png" alt="" width="30px" height="20px" class="pb-1"></div>
+          </label> 
+      </div>      
       </div>
     </div>
   </nav>
 <div id="app" class="pt-5">
-  <h1 class="animate__animated animate__fadeIn texto"> {{message}} </h1>
-<<<<<<< HEAD
- </div>
- <label class="switchBtn">
-  <input type="checkbox">
-  <div class="slide round">Oo</div>
-</label>
-<div id="section1"></div>
-<div id="section2"></div>
-=======
-  <div class="container-fluid" id="section1">
-    <h1>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aspernatur commodi necessitatibus, provident ipsa nam molestiae dolores debitis ullam quis iusto alias vero quisquam. Voluptatum accusantium officiis est debitis vitae saepe!</h1>
+  <h1 class="animate__animated animate__fadeIn texto text-center"> {{message}} </h1>
+ 
+  <div id="s1"></div>
+  <div class="container" id="section1">
+    <div class="row foto_text">
+      <div class="col-xl-4 foto p-0 m-0">
+        <img src="foto.jpg" alt="" width="90%" class="img-fluid">
+        </div>
+      <div class="col-xl-8 p-0 m-0 d-flex align-items-center"> 
+        <h2 class="textowea pt-5 text-center">{{texto1}}</h2></div>
+    </div>
   </div>
-  <div class="container-fluid" id="section2">
-    <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit reiciendis voluptatem alias perferendis aperiam, iste nemo doloribus, neque excepturi fugiat expedita distinctio! Minus molestias beatae facilis optio perferendis provident nemo.</h1>
-  </div>
-  <div class="container-fluid" id="section3">
+  <div id="s2"></div>
+  <div class="container mt-5" id="section2"> 
+    <div class="containerCV">
+      <div class="row">
+          <div class="col-md-4 p-2" style="border-radius: 10px" id="tarjeta1">
+              <div class="foto d-flex justify-content-center">
+                  <img src="foto.png" alt="" id="foto" class="shadow">
+              </div>
+              <hr>
+              <div class="datos-personales">
+                  <h3><img src="user-1.png" alt="" width="20px"> Datos personales <br></h3>
+                  <h6 class="m-0 pl-4">Facundo Elias Lopez</h6>
+                  <p class="m-0 pl-4">16 de noviembre de 1999 </p>
+                  <p class="m-0 pl-4" >Soltero </p>
+                  <p class="m-0 pl-4"> Argentino </p>
+              </div>
+              <hr>
+              <div class="habilidades">
+                  <h3><img src="check.png" alt="" width="20px"> Habilidades <br></h3>
+                      <img src="my-icons-collection/png/java.png" alt="" width="30px" class="pb-1"> Java <br>
+                      <img src="my-icons-collection/png/python.png" alt="" width="30px" class="pb-1">Python <br>
+                      <img src="my-icons-collection/png/css.png" alt="" width="30px" class="pb-1">CSS <br>
+                      <img src="my-icons-collection/png/js.png" alt="" width="30px" class="pb-1">JavaScript <br>
+                      <img src="my-icons-collection/png/mysql.png" alt="" width="30px" class="pb-1">MySQL <br>
+              </div>
+              <div class="contacto">
+
+                  <hr>
+                  <div class="contacto">
+                      <h3><img src="speech-bubble-19.png" alt="" width="20px"> Contacto <br></h3>
+                  </div>
+                  <img src="smartphone-1.png" alt="" width="15px"> +54 1135846270 <br>
+                  <img src="envelope.png" alt="" width="15px"> facueliaslopez@gmail.com <br>
+                   <a href="https://www.linkedin.com/in/facundo-elias-lopez-9899261a1/"><img src="003-linkedin.png" alt="" width="15px"> LinkedIn <br> </a>
+                  <img src="placeholder.png" alt="" width="15px"> Lanús Este, Buenos Aires <br>
+
+              </div>
+          </div>
+          <div class="col-md-8 p-3" style="border-radius: 10px">
+              <div class="info">
+                  <h3><img src="speech-bubble-24.png" alt="" width="30px"> Información</h3>
+                  <p>
+                      Actualmente no poseo experiencia laboral. Soy una persona
+                      muy calma y tranquila, ideal para la atención al cliente o la
+                      resolución de problemas que se plantean al momento.
+                      Poseo un buen manejo de responsabilidad a la hora de
+                      ejercer, tengo conocimientos avanzados sobre tecnología en
+                      general y un excelente uso de computadoras y algún que
+                      otro programa, ya sea Word, Excel, entre otras.
+                      Puedo desempeñarme en la programación, ya sea web o
+                      apps, con diferentes lenguajes y frameworks.                        
+                  </p>
+              </div>
+              <hr>
+              <div class="estudios">
+                  <h3><img src="edit.png" alt="" width="30px"> Estudios</h3>
+                  <img src="nere-echea.png" alt="" width="100px"> <br>
+                  Instituto Nere echea (2003-2017) <br>
+                  Secundaria y Primaria con orientación a ciéncias sociales. <br>
+                  <img src="unla-logo.png" alt="" width="90px"> <br>
+                  Universidad Nacional de Lanús (2019-actualidad) <br>
+                  Licenciatura en Sistemas <br>
+              </div>
+              <hr>
+              <div class="cursos">
+                  <h3><img src="sticker-4.png" alt="cursos" width="30px"> Cursos </h3>
+                  <img src="codoacodo.png" alt="codo_a_codo"> <br>
+                  Codo a Codo <br>
+                  FullStack Java Developer HTML5-CSS-Booststrap-JavaScript-Git-Scrum-MySQL-Vue.js-Java-AJAX-Spring<br>
+                  <img src="my-icons-collection/png/google_activate.jpg" alt="google_activate" width="100px"> <br>
+                  Introducción al desarrollo Web I <br>
+                  Historia de la web - Cómo funciona la web - Cómo se escribe una página web - Cómo se publica un sitio web - Cómo se escribe una página web bien estructurada<br>
+              </div>
+          </div>
+      </div>
+  </div>  
+  
+  
+  
+  
   </div>
 </div>
+</div>
  
->>>>>>> 41e4a89af901af698a089d95e20413aa55ba4ece
 
   <script src="index.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js" integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU" crossorigin="anonymous"></script>
