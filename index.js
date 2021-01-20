@@ -81,7 +81,7 @@ btn.addEventListener( 'change', function() {
   setTimeout(function(){app.datos='Personal information'},900);
   setTimeout(function(){app.webpersonalinfo='Personal web made with HTML, Javascript and Bootstrap'},900);
   setTimeout(function(){app.motorudymensajeria='Web about entrepreneurship of messenger service'},900);
-  setTimeout(function(){app.curriculuminfo='Curriculum web made with  HTML and Bootstrap'},900);
+  setTimeout(function(){app.curriculuminfo='Web resume made with  HTML and Bootstrap'},900);
   setTimeout(function(){app.pythongame='Game made with Python and the library PyGame'},900);
   setTimeout(function(){app.javascriptlogin='Basic validation with Javascript'},900);
   setTimeout(function(){app.bootstrapform='Form made with Bootstrap'},900);
