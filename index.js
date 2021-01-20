@@ -21,7 +21,13 @@ var app = new Vue({
     estado: 'Soltero',
     nacio: 'Argentino',
     habil: ' Habilidades',
-    contact: 'Contacto'
+    contact: 'Contacto',
+    webpersonalinfo: 'Pagina personal con HTML, Javascript y Bootstrap',
+    motorudymensajeria: 'Página web de mensajeria para enprendimiento',
+    curriculuminfo: 'Curriculum web realizado con HTML y Bootstrap',
+    pythongame: 'Juego realizado con Python con PyGame',
+    javascriptlogin: 'Validación básica de JavaScript',
+    bootstrapform: 'Formulario realizado en bootstrap'
   }
 })
 ;
@@ -51,14 +57,14 @@ btn.addEventListener( 'change', function() {
 
     // Curriculum
   document.querySelector('.textowea').classList.replace("animate__fadeIn","animate__fadeOut");
-  setTimeout(function(){app.texto1='texto en ingles'},900);
+  setTimeout(function(){app.texto1='At the present time, I am studying System Development. I can handle HTML, CSS, some CSS’s frameworks, Python, Javascript and Java. I love developing software and and applying them on different enviorments. I am interested in new languages and desktop applications development. I’m always positive and capable of finding fast solutions to any trouble. I am always seeking for new learnings and challenges to improve my habilities as a developer and as a human being. I have no troubles working with a team since it is a great source of feedback. '},900);
   setTimeout(function(){document.querySelector('.textowea').classList.replace("animate__fadeOut","animate__fadeIn",)},1000)
 
 
   document.querySelector('.containerCV').classList.replace("animate__fadeIn","animate__fadeOut");
 
   setTimeout(function(){app.info=' Information'},900);
-  setTimeout(function(){app.infoTexto='texto en ingles'},900);
+  setTimeout(function(){app.infoTexto='Nowadays i don’t have working experience. I am fit to work as a customer supporter since i am a really calm person. I have great knowledge about technology and a great usage of computers and softwares like Excel, Word, etc. I can perform good in web and apps programming, using different languages and frameworks.'},900);
   setTimeout(function(){app.estudios=' Education'},900);
   setTimeout(function(){app.nereInfo='Primary and Secondary school.'},900);
   setTimeout(function(){app.unla='Universidad Nacional de Lanús (2019-present)'},900);
@@ -73,12 +79,22 @@ btn.addEventListener( 'change', function() {
   setTimeout(function(){app.habil='Skills'},900);
   setTimeout(function(){app.contact='Contact'},900);
   setTimeout(function(){app.datos='Personal information'},900);
+  setTimeout(function(){app.webpersonalinfo='Personal web made with HTML, Javascript and Bootstrap'},900);
+  setTimeout(function(){app.motorudymensajeria='Web about entrepreneurship of messenger service'},900);
+  setTimeout(function(){app.curriculuminfo='Curriculum web made with  HTML and Bootstrap'},900);
+  setTimeout(function(){app.pythongame='Game made with Python and the library PyGame'},900);
+  setTimeout(function(){app.javascriptlogin='Basic validation with Javascript'},900);
+  setTimeout(function(){app.bootstrapform='Form made with Bootstrap'},900);
+  
 
 
 
 
   setTimeout(function(){document.querySelector('.containerCV').classList.replace("animate__fadeOut","animate__fadeIn",)},1000)
 
+  document.querySelector('.section3').classList.replace("animate__fadeIn","animate__fadeOut");
+  setTimeout(function(){document.querySelector('.section3').classList.replace("animate__fadeOut","animate__fadeIn",)},1000);
+  
  }
  else
  { 
@@ -118,13 +134,17 @@ btn.addEventListener( 'change', function() {
   setTimeout(function(){app.habil=' Habilidades'},900);
   setTimeout(function(){app.contact=' Contacto'},900);
   setTimeout(function(){app.datos='Datos personales'},900);
-
-  
-  
-  
+  setTimeout(function(){app.webpersonalinfo='Pagina personal con HTML, Javascript y Bootstrap'},900);
+  setTimeout(function(){app.motorudymensajeria='Página web de mensajeria para enprendimiento'},900);
+  setTimeout(function(){app.curriculuminfo='Curriculum web realizado con HTML y Bootstrap'},900);
+  setTimeout(function(){app.pythongame='Juego realizado con Python con PyGame'},900);
+  setTimeout(function(){app.javascriptlogin='Validación básica de JavaScript'},900);
+  setTimeout(function(){app.bootstrapform='Formulario hecho en Bootstrap'},900);
   
   setTimeout(function(){document.querySelector('.containerCV').classList.replace("animate__fadeOut","animate__fadeIn",)},1000);
 
+  document.querySelector('.section3').classList.replace("animate__fadeIn","animate__fadeOut");
+  setTimeout(function(){document.querySelector('.section3').classList.replace("animate__fadeOut","animate__fadeIn",)},1000);
   
  
   }
