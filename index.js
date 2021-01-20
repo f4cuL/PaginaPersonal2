@@ -41,7 +41,7 @@ btn.addEventListener( 'change', function() {
   document.querySelector('.navbar').classList.replace("animate__fadeIn","animate__fadeOut");
   setTimeout(function(){document.querySelector('.navbar').classList.replace("animate__fadeOut","animate__fadeIn",)},1000);
   setTimeout(function(){document.querySelector('.inicio').innerHTML='Home';},900);
-  setTimeout(function(){document.querySelector('#contacto').innerHTML='Contact';},900); 
+  setTimeout(function(){document.querySelector('#contacto').innerHTML='Portfolio';},900); 
   setTimeout(function(){document.querySelector('#cv').innerHTML='Resume';},900);
 
 
@@ -102,7 +102,7 @@ btn.addEventListener( 'change', function() {
   document.querySelector('.navbar').classList.replace("animate__fadeIn","animate__fadeOut");
   setTimeout(function(){document.querySelector('.navbar').classList.replace("animate__fadeOut","animate__fadeIn",)},1000);
   setTimeout(function(){document.querySelector('.inicio').innerHTML='Inicio';},900);
-  setTimeout(function(){document.querySelector('#contacto').innerHTML='Contacto';},900); 
+  setTimeout(function(){document.querySelector('#contacto').innerHTML='Portafolio';},900); 
   setTimeout(function(){document.querySelector('#cv').innerHTML='Curriculum';},900);
   // Mensaje hello world
   document.querySelector('.texto').classList.replace("animate__fadeIn","animate__fadeOut");
