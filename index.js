@@ -92,8 +92,8 @@ btn.addEventListener( 'change', function() {
 
   setTimeout(function(){document.querySelector('.containerCV').classList.replace("animate__fadeOut","animate__fadeIn",)},1000)
 
-  document.querySelector('.section3').classList.replace("animate__fadeIn","animate__fadeOut");
-  setTimeout(function(){document.querySelector('.section3').classList.replace("animate__fadeOut","animate__fadeIn",)},1000);
+  document.querySelector('.division').classList.replace("animate__fadeIn","animate__fadeOut");
+  setTimeout(function(){document.querySelector('.division').classList.replace("animate__fadeOut","animate__fadeIn",)},1000);
   
  }
  else
@@ -143,8 +143,8 @@ btn.addEventListener( 'change', function() {
   
   setTimeout(function(){document.querySelector('.containerCV').classList.replace("animate__fadeOut","animate__fadeIn",)},1000);
 
-  document.querySelector('.section3').classList.replace("animate__fadeIn","animate__fadeOut");
-  setTimeout(function(){document.querySelector('.section3').classList.replace("animate__fadeOut","animate__fadeIn",)},1000);
+  document.querySelector('.division').classList.replace("animate__fadeIn","animate__fadeOut");
+  setTimeout(function(){document.querySelector('.division').classList.replace("animate__fadeOut","animate__fadeIn",)},1000);
   
  
   }
